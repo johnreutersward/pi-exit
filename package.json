@@ -1,0 +1,14 @@
+{
+  "name": "pi-exit",
+  "version": "1.0.0",
+  "description": "/exit command for pi",
+  "author": "John Reuterswärd",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "pi": {
+    "extensions": ["./exit.ts"]
+  }
+}
