@@ -9,6 +9,19 @@
     "pi-extension"
   ],
   "pi": {
-    "extensions": ["./exit.ts"]
-  }
+    "extensions": [
+      "./exit.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "type": "module"
 }
